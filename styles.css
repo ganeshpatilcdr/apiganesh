@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(image.jpg) ;
+    backdrop-filter: blur(10px);
+
+}
+
+#content {max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgb(169, 210, 35);
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+#fetch-posts-button {
+    font-style: initial;
+    font-weight:bolder;
+    display: block;
+    width: 100%;
+    padding: 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(128, 217, 233);
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+}
+#fetch-posts-button:hover{
+    background-color: rgba(25, 128, 153, 0.552) 
+}
+    #content {
+        width: 80%;
+        max-width: 800px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    
+    
+    #posts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .post {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: #f9f9f9;
+    }
+    
+    .post:hover {
+        background: #f1f1f1;
+        cursor: pointer;
+    }
+    
+    #loading,
+    #error {
+        display: none;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+    #error {
+        color: red;
+    }
+    
+    .user-info {
+        font-size: 0.9em;
+        color: #555;
+    }
+    
+    .comments {
+        margin-top: 10px;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+    }
+    
+
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.post:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+#loading,
+#error {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#error {
+    color: red;
+}
+
+.user-info {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.comments {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
